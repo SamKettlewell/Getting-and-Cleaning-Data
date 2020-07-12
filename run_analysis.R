@@ -57,6 +57,7 @@
   column_names <- c("activity", "subject", as.character(stdmean_measurements[,2])) 
   colnames(main_dataset) <- column_names
   
+  
 
 ##Step 5 - Create summary dataset.
   
