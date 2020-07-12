@@ -8,10 +8,11 @@ The dataset contains 561 unique measurements from the sensors of a Samsung Galax
 Once you have done this, execute the ```run_analysis.R``` script. This generates both 
 -a tidy copy of the dataset having merged the training and testing examples and selected only measurements involving mean or standard deviation measurements, and,
 -a tidy summary dataset containing the average (mean) values of all mean and standard deviation measurements for each activity for each subject.
+The script then outputs the summary dataset as a text file.
 
 In particular, the ```run_analysis.R``` script
 1. Merges the training and test datasets into one dataset.
 2. Extracts only the measurements (dependent variables) corresponding to measurements of mean and standard deviation.
 3. Labels the activity (predictor variable) with a suitable descriptive name rather than a numerical code.
-4. Labels the columns of the dataset with descriptive variable names and produces the clean dataset ```clean_dataset.txt```.
+4. Labels the columns of the dataset with descriptive variable names.
 5. Creates a second summary dataset containing the average (mean) values of all mean and standard deviation measurements for each activity for each subject and produces the ```summary_dataset.txt```
