@@ -1,3 +1,23 @@
+# Code Book
+Code Book for Coursera Getting-and-Cleaning-Data peer-assessment project. Contains explanation and location of each variable in ```summary_data.txt```.
+
+## Dataset Description
+```summary_dataset.txt``` contains 180 observations of 81 variables (see below). Observations are grouped by subject and activity.
+
+### Subject 
+Subject variable is a numerical variable ranging from 1-30 corresponding to the thirty individuals involved in this experiment whose phones were used to record the measurements.
+
+### Activity
+Activity variable is a numerical variable ranging from 1-6 which encodes the type of activity the subject was doing while the measurements were recorded (see below).
+
+1. Walking
+2. Walking Upstairs
+3. Walking Downstairs
+4. Sitting
+5. Standing
+6. Laying
+
+## Variable Names by Column
 1. "subject"
 2. "activity"
 3. "tBodyAcc-mean()-X"
