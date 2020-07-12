@@ -65,6 +65,5 @@
   summary_dataset <- group_by(main_dataset, subject, activity) 
   summary_dataset <- summarise_all(summary_dataset, mean)
   
-  #Finally output both the main dataset and the clean summary dataset to the working directory/repo.
-  write.table(main_dataset, file = "clean_dataset.txt", row.names = FALSE, col.names = TRUE)
+  #Finally output the clean summary dataset to the working directory/repo.
   write.table(summary_dataset, file = "summary_dataset.txt", row.names = FALSE, col.names = TRUE)
